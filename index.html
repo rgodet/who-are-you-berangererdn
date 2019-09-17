@@ -4,14 +4,14 @@
     <title>Bérangère Rodenas - Qui suis-je?</title>
     <link rel="icon" type="image/png" href="assets/images/nuage.png"/>
     <link rel="stylesheet" href="style.css">
-   <link href="https://fonts.googleapis.com/css?family=Manjari:400,700&display=swap" rel="stylesheet"> 
+   <link href="https://fonts.googleapis.com/css?family=Manjari:400,700&display=swap" rel="stylesheet">
     <meta charset="utf-8">
     <script src="assets/js/script.js"></script>
 </head>
 <body>
 	<!-- Nav Bar -->
 	<header>
-		<nav>
+		<nav class="menu">
 			<a href="#presentation">Présentation</a>
 			<a href="#parcours">Parcours Scolaire - Diplômes</a>
 			<a href="#competences">Compétences et expériences</a>
@@ -20,13 +20,14 @@
 	</header>
 	<div class="logoberangere">
 		<img src="assets/images/logoberan.png" id="logoberan">
+    <img src="assets/images/astronaut.png" id="astro">
 	</div>
 	<main>
 		<article id="presentation">
 			<h1>Présentation</h1>
-			<p>Je m'appelle Bérangère Rodenas, je suis née le 26 juillet 1999. C'était un lundi ensoleillé. Il faisait environ 28 degrés d'après mes souvenirs. <br>Je réside dans la petite ville d'Orléans, mais qui est bien plus jolie que Limoges (oups désolée...!).</p>	
+			<p>Je m'appelle Bérangère Rodenas, je suis née le 26 juillet 1999. C'était un lundi ensoleillé. Il faisait environ 28 degrés d'après mes souvenirs. <br>Je réside dans la petite ville d'<span class="orange">Orléans</span>, mais qui est bien plus jolie que Limoges (oups désolée...!).</p>
 		</article>
-		<article id="parcours">	
+		<article id="parcours">
 			<h1>Parcours Scolaire et diplômes</h1>
 			<ul>
 				<li><strong>2017-2019</strong> : DUT Information - Communication option Information numérique dans les organisations</li>
@@ -38,12 +39,16 @@
 		</article>
 		<article id="competences">
 			<h1>Compétences et expériences</h1>
-			<p>Je ne pense pas qu'il y ai de bonnes ou de mauvaises compétences. Si je devais résumer mes compétences aujourd'hui, je dirais que c'est avant tout des expériences. Des <strong>professionnels</strong> qui m'ont tendus la main, à des moments où j'avais <strong>VRAIMENT</strong> besoin d'un stage pour valider mes années, et ne pas me retrouver seule chez moi.<br>Et c'est assez curieux de se dire, que grâce à eux, j'ai pu forger mes capacités professionnelles, telles que <strong>s'adapter</strong> à mon environnement de travail ou encore à être <strong>réactive</strong> et <strong>efficace</strong>. Parce que quand on a le goût du travail, quand on a le goût de la chose bien faite, nos compétences ne cessent de s'améliorer. Parce que quand on ne trouve pas la réponse en face, la <strong>motivation</strong> nous aide à avancer.<br>Alors je dis merci à la vie, je danse la vie... Je ne suis qu'optimiste et pleine de confiance pour la suite.</p>		
-		</article>			
+			<p>Je ne pense pas qu'il y ai de bonnes ou de mauvaises compétences. Si je devais résumer mes compétences aujourd'hui, je dirais que c'est avant tout des expériences. Des <strong class="orange">professionnels</strong> qui m'ont tendus la main, à des moments où j'avais <strong class="orange
+			">VRAIMENT</strong> besoin d'un stage pour valider mes années, et ne pas me retrouver seule chez moi.<br>Et c'est assez curieux de se dire, que grâce à eux, j'ai pu forger mes capacités professionnelles, telles que <strong class="orange">s'adapter</strong> à mon environnement de travail ou encore à être <strong class="orange">réactive</strong> et <strong class="orange">efficace</strong>. Parce que quand on a le goût du travail, quand on a le goût de la chose bien faite, nos compétences ne cessent de s'améliorer. Parce que quand on ne trouve pas la réponse en face, la <strong class="orange">motivation</strong> nous aide à avancer.<br>Alors je dis merci à la vie, je danse la vie... Je ne suis qu'optimiste et pleine de confiance pour la suite.</p>
+		</article>
 			<article id="plus">
 			<h1>Pour en savoir plus...</h1>
-			<p>En fait, il n'y a pas grand chose à dire de plus. Mes temps libres sont souvent destinés à mes passions envahissantes pour les séries télé, les chaussettes à paillettes et le roller.<br>Il m'arrive (souvent) de dessiner, d'écrire dans l'un de mes 324547587 carnets ou encore de sortir avec mon appareil photo pour photographier, principalement, les fleurs.</p>
-		</article>			
+			<p>En fait, il n'y a pas grand chose à dire de plus. Mes temps libres sont souvent destinés à mes passions envahissantes pour les séries télé, les chaussettes à <span class="orange">paillettes</span> et le roller.<br>Il m'arrive (souvent) de dessiner, d'écrire dans l'un de mes 324547587 carnets ou encore de sortir avec mon appareil photo pour photographier, principalement, les fleurs. Si ça vous intéresse, je vous laisse écouter ma chanson préférée. Mais vraiment, vous n'êtes pas obligés.</p>
+			<a title="my favorite song" target="_blank" href="assets/tears.mp3">
+				<img src="assets/images/mp3.png" alt="mp3 logo" class="mp3logo">
+			</a>
+		</article>
 	</main>
 	<!-- Footer / social medias and contact details -->
 	<footer>
@@ -51,17 +56,17 @@
 			<ul></ul>
 			<li>06.83.90.31.84</li>
 			<li>berangere.rodenas@gmail.com</li>
-			<li><a href="https://berangere-rodenas.wixsite.com/monsite" target="_blank">website</a></li>	
+			<li><a href="https://berangere-rodenas.wixsite.com/monsite" target="_blank">website</a></li>
 			<a href="https://www.instagram.com/berangere.rodenas/" target="_blank" class="socialMedia">
 				<img src="assets/images/logoinstagram.png" alt="instagram">
 			</a>
 			<a href="https://twitter.com/RodenasBrngr" target="_blank" class="socialMedia">
-			<img src="assets/images/logotwitter.png" alt="twitter">				
+			<img src="assets/images/logotwitter.png" alt="twitter">
 			</a>
 			<a href="https://www.linkedin.com/in/b%C3%A9rang%C3%A8re-rodenas-147bb2150/" target="_blank" class="socialMedia">
-			<img src="assets/images/logolinkedin.png" alt="linkedin">			
+			<img src="assets/images/logolinkedin.png" alt="linkedin">
 			</a>
 		</nav>
-	</footer>	
+	</footer>
 </body>
 </html>

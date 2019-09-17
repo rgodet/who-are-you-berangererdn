@@ -12,7 +12,7 @@ nav{
 	display: flex;
 	justify-content: space-around;
 	width: 50%;
-	margin: 0 auto;	
+	margin: 0 auto;
 	margin-top: 30px;
 	align-items: center;
 }
@@ -25,9 +25,29 @@ nav{
 		color: #FF6400;
 
 	}
-.logoberangere{
+	.logoberangere{
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	}
+	#astro{
+		width: 8%;
+		height: 100%;
+		animation: animAstro 2s;
+		animation-iteration-count: infinite;
+	}
+	@keyframes animAstro {
+		0%{
+			transform: translateY(50px);
+		}
+		50%{
+			transform: translateZ(100px);
+		}
+		100%{
+			transform: translateY(50px);
+		}
+	}
+#logoberangere{
 	margin-top: 25px;
 }
 #logoberan {
@@ -41,12 +61,18 @@ main{
 	margin: 0 auto;
 	line-height: 1.5rem;
 }
+.orange{
+	color: #FF6400;
+}
 article{
 	margin-bottom: 50px;
 }
 article li{
 	list-style: circle;
 	width: 100%;
+}
+.mp3logo{
+	width: 5%;
 }
 footer li{
 	list-style: none;
