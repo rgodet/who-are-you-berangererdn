@@ -74,8 +74,21 @@ article li{
 .mp3logo{
 	width: 5%;
 }
-footer li{
-	list-style: none;
+footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 60%;
+	margin: 0 auto;
+}
+#website{
+  text-decoration: none;
+  color: white;
+	transition: 0.5s;
+}
+#website:hover{
+	color: #FF6400
 }
 .socialMedia{
 	width: 5%;
